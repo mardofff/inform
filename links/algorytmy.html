@@ -1,0 +1,125 @@
+
+    <html lang="pl-PL">
+<head>
+	<meta charset="utf-8">  
+	<title> algorytmy </title>
+</head>
+<body>
+<h1> Algorytmy Teoria </h1>
+<h2>1 Co to jest programowanie?</h2>
+<font face ="Arial"><h4>Programowanie to proces składający się z etapów: </h4> 
+a)tworzenia programu, <br>
+b) testowanie programu.</font>
+
+<font face ="Arial"><h2>2 Dwie reguły programowania</h2>
+
+Reguły semantyczne to inaczej reguły znaczeniowe, czyli reguły które wyznaczają sposoby posługiwania się znakami <br>
+Reguły syntaktyczne reguły składni wyrażeń i funkcji użytych w programie
+
+<font face ="Arial"><h2>3 Algorytm- definicja</h2>
+<h3>Definicja 1</h3>
+Algorytm jest to pewien ciąg czynności, który prowadzi do rozwiązania danego problemu w skończonej ilości kroków.
+<h3>Definicja 2</h3>
+Algorytm to jednoznaczny przepis, opisujący krok po kroku sposób postępowania w celu rozwiązania pewnego problemu lub sposobu osiągnięcia jakiegoś celu. <br>
+Ilość kroków algorytmu zależy od tego, jak złożony jest problem, którego on dotyczy. Zawsze jednak liczba tych kroków będzie liczbą skończoną.
+
+
+<font face ="Arial"><h2> 4 Cechy charakterystyczne poprawnego algorytmu</h2>
+<strong>Poprawność </strong> - dla każdego przypisanego zestawu danych, po wykonaniu skończonej liczby czynności, algorytm prowadzi do poprawnych wyników.<br>
+<strong>Jednoznaczność </strong> - w każdym przypadku zastosowania algorytmu dla tych samych danych otrzymamy ten sam wynik.<br>
+<strong>Szczegółowość </strong> - wykonawca algorytmu musi rozumieć opisane czynności i potrafić je wykonywać.<br>
+<strong>Uniwersalność </strong> - algorytm ma służyć rozwiązywaniu pewnej grupy zadań, a nie tylko jednego zadania.<br> 
+Przykładowo algorytm na rozwiązywanie równań w postaci ax + b=0 ma je rozwiązać dla dowolnych współczynników a i b, a nie tylko dla jednego konkretnego zadania, np. 2x + 6 = 0 <br>
+<strong>Skończoność </strong> – dla każdego zbioru poprawnych danych wejściowych algorytm powinien zwracać wyniki w skończonej liczbie kroków. <br>
+<strong>Efektywność </strong> – algorytm powinien rozwiązywać problem w jak najmniejszej liczbie kroków.
+
+
+<font face ="Arial"><h2> 5 Etapy konstruowania algorytmu</h2>
+    <OL>
+<li>Sformułowanie zadania.</li>
+<li>Określenie danych wejściowych.</li>
+<li>Określenie wyniku oraz sposobu jego prezentacji.</li>
+<li>Ustalenie metody wykonania zadania. </li>
+<li>Przy użyciu wybranej metody następuje zapisanie algorytmu.</li>
+<li>Dokonujemy analizy poprawności rozwiązania.</li>
+<li>Testowanie rozwiązania dla różnych danych. </li>
+<li>Ocena skuteczności tegoż algorytmu.</li>
+</OL>
+
+
+<font face ="Arial"><h2> 6 Sposoby przedstawiania algorytmu wraz z opisem</h2>
+<ul>
+<li>słowny opis</li>
+<li>schemat blokowy</li>
+<li>lista kroków</li>
+<li>drzewo algorytmu</li>
+<li>drzewo wyrażeń</li>
+<li>w pseudojęzyk</li>
+<li>w język programowania.</li>
+
+</ul>
+
+
+<font face ="Arial"><h2> 7 Specyfikacja problemu</h2>
+<strong>Specyfikacja problemu</strong> jest to dokładny opis problemu, który chcemy rozwiązać. Specyfikacja składa się z:<br>
+<ul>
+<li>danych wejściowych</li>
+<li>dane wyjściowe oraz warunki jakie muszą spełniać (czyli związek pomiędzy danymi a wynikami)</li>
+<li>warunki jakie muszą spełniać dane wejściowe</li>
+<li>rysunki ( jeśli są konieczne), wzory obliczeniowe</li>
+</ul>
+</font>
+<font face ="Arial"><h2> 8 Symbole stosowane w schematach blokowych </h2>
+    <img src="schemat.jpg">
+
+<font face ="Arial"><h2> 9. Reguły rysowania schematów blokowych </h2>
+    <ol type="I" start="1">
+        <li>Po zbudowaniu schematu blokowego nie powinno być takich strzałek, które z nikąd nie wychodzą, lub do nikąd nie dochodzą.</li>
+        <li>Każdy schemat blokowy musi mieć tylko jeden element startowy oraz co najmniej jeden element końca algorytmu.</li>
+        <li>Element łączący(strzałki łączące) powinien być rysowany w poziomie i pionie, załamania pod kątem prostym.</li>
+
+    </ol>
+
+    <font face ="Arial"><h2> 10. Podziały algorytmów </h2>
+
+<font size="4">Definicja algorytmu liniowego
+<p><strong>algorytmem liniowym</strong>  nazywamy taki algorytm, który ma postać listy kroków<br>
+wykonywanych zgodnie z ich kolejnością.
+Algorytmy liniowe są zapisem obliczeń, które mają postać ciągu operacji rachunkowych<br>
+wykonywanych bez sprawdzania jakichkolwiek warunków.</p>
+
+<p><strong>Algorytm z warunkami</strong>  (rozgałęzieniami)
+Ten typ algorytmu musi mieć bloki decyzyjne czyli bloki sprawdzania warunków.</p>
+
+<p><strong>Algorytm numeryczne</strong> <br>
+Algorytmy, które wykonują działania matematyczne na danych liczbowych, nazywamy
+algorytmami numerycznymi.</p>
+
+<p><strong>Algorytm typu dziel i zwyciężaj </strong> <br>
+Dzielimy problem na kilka mniejszych, a te znowu dzielimy, aż ich rozwiązania staną się
+oczywiste,</p>
+
+<p><strong>Algorytmy iteracyjne</strong> <br> 
+Iteracja jest to zapętlenie algorytmu, czyli wykonywania danych działań, dopóki warunek<br>
+iteracji nie zostanie spełniony. Jest ona podstawą wszystkich choć troszkę bardziej złożonych<br>
+algorytmów. Zazwyczaj ma ona składnię wykonuj "jakaś czynność" dopóki "jakieś wyrażenie
+logiczne".</p>
+
+<p><strong>algorytmem liniowym</strong> <br>
+Rekurencje wykorzystuje się do rozwiązywania problemów gdzie powtarza się czynność aby<br>
+do niego dojść. Swoim działaniem przypomina iteracje. Jednak w tym przypadku funkcjasama siebie wywołuje, dopóki nie otrzyma rozwiązania, natomiast tam mieliśmy
+powtórzenie pewnej czynności określoną ilość razy.</p>
+
+<font face ="Arial"><h2> 11. Opis pojęć (złożoność algorytmu, złożoność obliczeniowa, złożoność czasowa, złożoność pamięciowa) </h2>
+
+<strong>Złożoność algorytmu</strong> - ilość zasobów potrzebnych do poprawnego działania danego algorytmu<br>
+<strong>Złożoności obliczeniowa</strong>-Algorytm wykonujący najmniejszą ilość operacji podstawowych w celu rozwiązania problemu.<br>
+<strong>Złożoność czasowa</strong>- Określa ilość operacji podstawowych potrzebnych do wykonania algorytmu o danej wielkości wejściowej.<br>
+<strong>Złożoność pamięciowa</strong>- Określa ilość przestrzeni pamięci wirtualnej potrzebnej do wykonania algorytmu z określonym zestawem danych wejściowych.<br>
+
+</font>
+    </body>
+    </html>
+
+               
+
