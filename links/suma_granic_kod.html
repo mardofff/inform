@@ -1,0 +1,47 @@
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8">  
+    </head>
+    <body>
+<textarea rows=30 cols=50>
+
+    #include <cstdlib>
+        #include <iostream>
+        
+        using namespace std;
+        
+        int main(int argc, char *argv[])
+        {
+            
+        
+        int gora_osy;
+        int dol_osy;
+        cout<<"podaj gorna granice obliczania sumy=";
+        cin>>gora_osy;
+        cout<<"podaj dolna granice obliczanie sumy=";
+        cin>>dol_osy;
+        
+        
+        
+        int suma_osy=1;
+        for (int i=0;i<=gora_osy;i++)
+        {
+        suma_osy=suma_osy+i;
+        }
+        
+        for (int i=0;i<=dol_osy;i++)
+        {
+        suma_osy=suma_osy+i;
+        }
+        
+        
+        
+        cout<<"suma="<<suma_osy<<endl;
+        system("PAUSE");
+        return EXIT_SUCCESS;
+        }
+
+
+</textarea>   
+</body>
+</html>
